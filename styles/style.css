@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 .text-primary{
@@ -138,10 +139,12 @@ text-align: center;
 }
 
 /* what i do section */
-
-.section-description{
-    margin-bottom: 50px;
+.resume .btn-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .skill-container{
     display: flex;
     gap: 24px;
@@ -195,4 +198,50 @@ text-align: center;
 }
 .resume .description{
     color: #757575;
+}
+hr{
+    margin: 30px 0;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.btn{
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    padding: 18px 36px;
+}
+/* footer design */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact a{
+    text-decoration: none;
+}
+.contact .section-title{
+    text-align: left;
+    margin-bottom: 18px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    padding: 18px 30px;
+    width: 100%;
+    
+}
+/* .contact input[type="text"], input[type="email"]{
+    height: 64px;
+} */
+.last-part{
+    margin-left: 24px;
 }
